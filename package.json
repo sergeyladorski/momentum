@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "create-rss-app": "^0.2.4"
+  },
+  "name": "momentum",
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "rss-scripts": "^0.2.4"
+  }
+}
