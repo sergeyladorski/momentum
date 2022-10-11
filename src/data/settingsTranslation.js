@@ -1,0 +1,42 @@
+export const settingsTranslation = {
+    en: {
+        lang: 'Language',
+        bg: 'Background image',
+        placeholder: 'Custom tag',
+        display: 'Display elements',
+        error: 'Error',
+        errorRate: 'Rate Limit Exceeded',
+        notFound: 'Nothing found',
+        forbidden: 'Missing permissions to perform request',
+        items: {
+            title: 'Display items',
+            time: 'Time',
+            date: 'Date',
+            greeting: 'Greeting',
+            quote: 'Quote',
+            weather: 'Weather',
+            audio: 'Player',
+            todolist: 'To-Do List',
+        },
+    },
+    ru: {
+        lang: 'Язык',
+        bg: 'Фоновое изображение',
+        placeholder: 'Свой тег',
+        display: 'Отобразить элементы',
+        error: 'Ошибка',
+        errorRate: 'Ограничение запросов превышено',
+        notFound: 'Ничего не найдено',
+        forbidden: 'Запрещено выполнение запроса',
+        items: {
+            title: 'Отобразить элементы',
+            time: 'Время',
+            date: 'Дата',
+            greeting: 'Приветствие',
+            quote: 'Цитата',
+            weather: 'Погода',
+            audio: 'Плейер',
+            todolist: 'Список дел',
+        },
+    }
+};
